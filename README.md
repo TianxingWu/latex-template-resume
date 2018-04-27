@@ -4,4 +4,4 @@ A LaTex template for résumé.
 
 ![English](https://github.com/Arsennnic/latex-template-billryan-resume/raw/master/resume-2.jpg)
 
-Original Github: https://github.com/billryan/resume/tree/master
+Modified from: https://github.com/billryan/resume/tree/master
