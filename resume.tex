@@ -1,0 +1,123 @@
+% !TEX program = xelatex
+
+\documentclass{resume}
+\usepackage{graphicx}
+\usepackage{tabu}
+\usepackage{multirow}
+\usepackage{multicol}
+\usepackage{lipsum}
+\usepackage{zh_CN-Adobefonts_external}
+\setitemize[1]{itemsep=6pt,partopsep=0pt,parsep=\parskip,topsep=5pt}
+
+\begin{document}
+\pagenumbering{gobble}
+
+\Large{
+\begin{tabu}{ c c l c l }
+\multirow{4}{1in}{\includegraphics[width=0.88in]{avatar}} & \multicolumn{4}{l}{\scshape{张XX}} \\
+& \faBuilding & XX省XX市 & \faCalendar & 19XX.XX \\
+& \faEnvelope & XXX@gmail.com & \faPhone & (+86) 158XXXXXXXX \\
+& \faGraduationCap & \multicolumn{3}{l}{XX大学\quad XXXX学院}  \\
+\end{tabu}
+}
+
+\normalsize{
+\section{\faCheckCircle\ 成绩\&排名}
+\begin{itemize}
+\item 平均绩点：XX/XX；XX/4.0（北大GPA算法） \hfill 专业排名：XX/XX
+\item CET-6：XX分；CET-4：XX分
+\end{itemize}
+
+
+\section{\faFlask\ 研究\&项目}
+\begin{itemize}
+\item XXXX的仿真与探究 \hfill 项目负责人 \\
+由XXX教授指导的研究项目。 \\
+\lipsum[1]
+
+\item XXXX的研究与设计 \hfill \\
+由XXX教授发起的研究项目。 \\
+\lipsum[2]
+
+\end{itemize}
+
+\section{\faStar\ 奖项\&荣誉}
+\begin{itemize}
+\item XX竞赛 \hfill 一等奖
+\item XX竞赛 \hfill 一等奖
+\item XX竞赛 \hfill 二等奖
+\item XX竞赛 \hfill 三等奖
+\end{itemize}
+
+\section{\faCogs\ 技能\&软件}
+\begin{itemize}
+\item 专业类：XX系列软件、Matlab、SPSS、Lingo、Autodesk CAD
+\item 编程类：Visual Studio、Android Studio、Eclipse
+\item 办公类：Office系列软件、LaTex、Adobe Photoshop
+\end{itemize}
+
+\section{\faMapSigns\ 未来\&展望}
+\begin{itemize}
+\item XXXXXXXXXXXXXXXXXX
+\item XXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+\end{itemize}
+
+}
+
+\newpage
+\setitemize[1]{itemsep=4pt,partopsep=0pt,parsep=\parskip,topsep=5pt}
+
+\Large{
+\begin{tabu}{ c c l c l }
+\multirow{4}{1in}{\includegraphics[width=0.88in]{avatar}} & \multicolumn{4}{l}{\scshape{ZHANG XX-XX}} \\
+& \faBuilding & XX, XX & \faCalendar & 19XX.XX \\
+& \faEnvelope & XXX@gmail.com & \faPhone & (+86) 158XXXXXXXX \\
+& \faGraduationCap & \multicolumn{3}{l}{XX University,} \\
+& &	\multicolumn{3}{l}{School of XXXX} 
+\end{tabu}
+}
+
+\normalsize{
+\section{\faCheckCircle\ Score \& Ranking}
+\begin{itemize}
+\item GPA: XX/XX; XX/4.0 (PKU's GPA Algorithm) \hfill Ranking: XX/XX
+\item CET-6: XX; CET-4: XX
+\end{itemize}
+
+
+\section{\faFlask\ Study \& Projects}
+\begin{itemize}
+\item \textbf{Simulation and Research on XXXX} \hfill Leader\\
+Guided by Prof. \emph{XXX}. \\
+\emph{\lipsum[3]}
+
+\item \textbf{Research and Design of Double-Entry Centrifugal Turbine} \\
+Proposed by Prof. \emph{XXX}. \\
+\emph{\lipsum[4]}
+
+\end{itemize}
+
+\section{\faStar\ Awards \& Honors}
+\begin{itemize}
+\item XX Contest \hfill First Prize
+\item XX Contest \hfill First Prize
+\item XX Contest \hfill Second Prize
+\item XX Contest  \hfill Third Prize
+\end{itemize}
+
+\section{\faCogs\ Skills \& Softwares}
+\begin{itemize}
+\item Professional: XX Workbench Series, Matlab, SPSS, Lingo, Autodesk CAD
+\item Programming: Visual Studio, Android Studio, Eclipse
+\item Typesetting: Office Series, LaTex, Adobe Photoshop
+\end{itemize}
+
+\section{\faMapSigns\ Future \& Prospects}
+\begin{itemize}
+\item XXXXXXXXXXXXXXXXXX
+\item XXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+\end{itemize}
+
+}
+
+\end{document}
