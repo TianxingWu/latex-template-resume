@@ -11,7 +11,7 @@ A Small Gift: gpa.m
 
 A matlab code which can help you work out your gpa with PKU, USTC and SJTU algorithm.
 
-All you need to do are as followed:
+All you need to do are as follows:
 
 1. Write a n-by-2 matrix into "score.xls"; where, the first column contains the scores of your n courses and the second column is the credits of these courses
 
